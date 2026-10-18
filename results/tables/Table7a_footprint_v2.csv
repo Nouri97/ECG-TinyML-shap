@@ -1,0 +1,5 @@
+model,float_layout_kb,int8_layout_kb,compression_x,n_params_or_nodes,ops_per_inference,ops_unit,ram_bytes_est,node_index_fits_u16
+MLP (2-layer),4.24609375,1.49609375,2.838120104438642,1057,1008.0,multiply-accumulates,191,True
+LightGBM,189.369140625,101.525390625,1.8652392220234317,30024,2662.770195392243,node comparisons,19,True
+XGBoost,288.6337890625,154.9755859375,1.862446831973282,45662,2976.50656167979,node comparisons,19,True
+Gradient Boosting,331.98828125,178.3203125,1.8617524644030667,52492,2999.218576844561,node comparisons,19,True

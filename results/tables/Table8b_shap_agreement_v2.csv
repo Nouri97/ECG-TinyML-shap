@@ -1,0 +1,7 @@
+a,b,spearman_rho_mean_abs_shap,top5_overlap
+LightGBM / PTB-XL_fold10,XGBoost / PTB-XL_fold10,0.9857142857142854,0.8
+LightGBM / PTB-XL_fold10,Gradient Boosting / PTB-XL_fold10,0.9642857142857141,0.8
+LightGBM / PTB-XL_fold10,LightGBM / CPSC2018,0.9571428571428571,0.8
+XGBoost / PTB-XL_fold10,Gradient Boosting / PTB-XL_fold10,0.9857142857142854,1.0
+XGBoost / PTB-XL_fold10,LightGBM / CPSC2018,0.9428571428571427,0.8
+Gradient Boosting / PTB-XL_fold10,LightGBM / CPSC2018,0.9571428571428571,0.8
