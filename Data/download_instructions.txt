@@ -1,0 +1,19 @@
+# Data Download Instructions
+
+## PTB-XL
+
+Download from PhysioNet:
+
+```bash
+wget -r -N -c -np https://physionet.org/files/ptb-xl/1.0.3/ -P /content/ptb-xl/
+
+##CPSC-2018
+
+Download from PhysioNet:
+```bash
+wget -r -N -c -np \
+    -A '*.hea,*.mat' \
+    --user-agent="Mozilla/5.0" \
+    https://physionet.org/files/challenge-2020/1.0.2/training/cpsc_2018/ \
+    -P /content/cpsc2018/
+
